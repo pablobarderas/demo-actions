@@ -1,5 +1,5 @@
 import unittest
-from multiplicar import mul
+from calculator import mul
 
 class TestMul(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 import unittest
-from suma import sum
+from calculator import sum
 
 class TestSum(unittest.TestCase):
 

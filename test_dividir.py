@@ -1,5 +1,5 @@
 import unittest
-from dividir import div
+from calculator import div
 
 class TestDiv(unittest.TestCase):
 
