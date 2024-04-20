@@ -1,7 +1,7 @@
 import unittest
 from resta import sub
 
-class TestSum(unittest.TestCase):
+class TestSub(unittest.TestCase):
 
     def test_sub(self):
         self.assertEqual(sub(4,2), 2 )

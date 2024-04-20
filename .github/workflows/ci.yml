@@ -25,3 +25,11 @@ jobs:
       - name: Run resta tests
         run: |
           python -m unittest test_resta.py
+
+      - name: Run dividir tests
+        run: |
+          python -m unittest test_dividir.py
+
+      - name: Run multiplicar tests
+        run: |
+          python -m unittest test_multiplicar.py
