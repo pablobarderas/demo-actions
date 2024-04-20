@@ -18,6 +18,10 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Run tests
+      - name: Run suma tests
         run: |
           python -m unittest test_suma.py
+
+      - name: Run resta tests
+        run: |
+          python -m unittest test_resta.py
