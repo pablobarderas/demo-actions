@@ -8,7 +8,5 @@ def mul (num1, num2):
     return num1 * num2
 
 def div (num1, num2):
-    try:
-        return num1 / num2
-    except ZeroDivisionError:
-        return 0
+    return num1 / num2
+    
